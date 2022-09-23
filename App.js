@@ -1,7 +1,10 @@
-const animal = "dog";
+const animalCollection = { dog: "dog" };
 /**
- * 
+ * renderBestAnimal
+ * @arg { string } animal
  * @returns void
  */
-const renderBestAnimal = () => console.log(animal);
+const renderBestAnimal = (animal) => console.log(animal);
 
+// test
+renderBestAnimal(animalCollection.dog);
