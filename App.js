@@ -1,3 +1,7 @@
-const animal = "dog"
-const renderBestAnimal = () => console.log(animal)
+const animal = "dog";
+/**
+ * 
+ * @returns void
+ */
+const renderBestAnimal = () => console.log(animal);
 
