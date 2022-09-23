@@ -1,4 +1,4 @@
-const animals = { dog: "dog" };
+const animalCollection = { dog: "dog" };
 /**
  * renderBestAnimal
  * @arg { string } animal
@@ -7,4 +7,4 @@ const animals = { dog: "dog" };
 const renderBestAnimal = (animal) => console.log(animal);
 
 // test
-renderBestAnimal(animals.dog);
+renderBestAnimal(animalCollection.dog);
